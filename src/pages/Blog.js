@@ -1,7 +1,7 @@
 import React from 'react';
 import projectsData from '../data/project.json';
 import { withRouter } from 'react-router-dom';
-class Project extends React.Component {
+class Blog extends React.Component {
   render() {
   const { id } = this.props.match.params;
   return (
@@ -17,4 +17,4 @@ class Project extends React.Component {
   );
   }
 }
-export default withRouter(Project);
+export default withRouter(Blog);
